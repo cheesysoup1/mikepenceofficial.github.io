@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Mike Pence's Site
+title: "Mike Pence's Site"
 email: david.bai@warriorlife.net
 description: >- # this means to ignore newlines until "baseurl:"
   MIKE PENCE FOR PRESIDENT 2020!
@@ -24,6 +24,8 @@ github_username:  MikePenceOfficial
 
 Disqus:
   shortname: mike-pences-site
+
+timezone: America/Los_Aangeles
 
 # Build settings
 markdown: kramdown
