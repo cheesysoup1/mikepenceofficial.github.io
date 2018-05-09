@@ -25,7 +25,7 @@ github_username:  MikePenceOfficial
 Disqus:
   shortname: mike-pences-site
 
-timezone: America/Los_Aangeles
+timezone: America/Los_Angeles
 
 # Build settings
 markdown: kramdown
