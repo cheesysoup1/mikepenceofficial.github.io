@@ -16,9 +16,9 @@ author: Mike Pence's Cousin, Pete Pencer
 This is a [link](http://heaven.com/)
 
 * bullet point 1
+* bullet point 2
 
- 1.Ordered list 1
- 
- 2. Ordered list 2
+1. Ordered list 1 
+2. Ordered list 2
  
  These are all types of markdown!
