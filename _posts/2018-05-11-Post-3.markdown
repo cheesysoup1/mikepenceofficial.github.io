@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "Post #3"
+date:   2018-05-11 14:02:49 -0700
+categories: uncategorized
+author: Mike Pence's Cousin, Pete Pencer
+---
+# Ya like markdown?
+
+## Here are some examples!
+
+*This is  italics*
+
+**This is bold**
+
+This is a [link](http://heaven.com/)
+
+* bullet point 1
+* bullet point 2
+
+1. Ordered list 1 
+2. Ordered list 2
+ 
+ These are all types of markdown!
