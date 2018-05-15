@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+<script type="text/javascript">
+	function tipCalc( bill, percent){
+	
+		bill= Number(bill);
+		percent=Number(percent)
+		var tip=bill*(percent/100);
+		return tip;
+	}
+</script>
+</head>
+
+<body>
+	<script type="text/javascript">
+		var b=prompt("What is your bill?")
+		var p=prompt("what percent do you want to tip?")
+		alert(tipCalc(b,p))
+	</script>
+</body>
+</html>

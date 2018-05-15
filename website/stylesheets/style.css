@@ -1,0 +1,143 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Color Palette
+Color 1, Grey: #7F7F7F
+Color 2, Black: #000000
+Color 3, Fabric Blue: #1E617F
+ 
+*/
+
+
+	
+	#footer p{
+		text-align: right;
+	}
+	
+	#egg{
+		align-content:center;
+	}
+	
+	/*
+	^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+	(																				)
+	(					BASIC STRUCTURE								)
+	(																				)
+	(																				)
+	^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+	*/
+	#wrapper {
+		width:960px;
+		padding: 5px;
+		margin:20px auto;
+					}
+					
+		#header{
+			height: 100px;
+		}
+	#sidebar{
+		float: left;
+		width:300px;
+	}
+	
+	#content{
+		float:right;
+		width: 600px;
+	}
+	
+	#footer{
+		clear: both
+	}
+	/*
+	^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+	(																				)
+	(					Colors and Fonts									)
+	(																				)
+	(																				)
+	^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+	*/
+	 body {
+		font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+		color: #000000;
+		/*background-color:#1E617F*/
+		background-image: url("../images/spooky.jpg");
+	}
+	#header, #sidebar, #content, #footer{
+			background-color: #7F7F7F;
+			opacity: 0.8;
+			margin-bottom: 4px;
+			border: ridge; 
+			border-radius: 8px;
+			border-color: #000000;
+			padding-left: 4px;
+			padding-right: 4 px}
+	/*
+	^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+	(																				)
+	(					Responsive Width									)
+	(																				)
+	(																				)
+	^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+	*/
+	@media screen and (max-width: 980px) {
+		
+	#wrapper{
+		width: 94%
+	}
+	#sidebar{
+		width: 30%
+	}
+	
+	#content{
+			width: 65%;
+	}
+	}
+	
+	@media screen and (max-width:700px) {
+		#content,#sidebar{
+		width: auto;
+		float: none;
+		}
+		#header{
+		height:auto;
+			}
+	
+	
+	}
+	@media only screen and (max-width:480px){
+	#header{
+		height: auto
+		}
+	h1{
+		font-size: 24px
+		}
+	#sidebar{
+			fgloat:none
+		}
+	
+	}
+	
+	
+	/* Phones */
+	@media only screen
+	and (min-device-width: 320 px)
+	and (max-device-width: 568 px) {
+		body{
+			font-size: 40px
+			}
+		#header{
+			height:auto
+			}
+		#content{
+			width: auto
+			}
+		#sidebar{
+			width:auto;
+			clear:both;
+			}
+		#header, #sidebar,#content, #footer{
+			border-radius: 16px;
+			border-width: 8px
+			}
+	}
+	

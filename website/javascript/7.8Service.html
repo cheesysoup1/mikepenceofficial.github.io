@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>EGG</title>
+</head>
+
+<body>
+<script type="text/javascript">
+var time=prompt('What time is it in military time? Please write times as: 10.s30, 14.50 etc');
+	if( time>=6 && time<=10){
+		alert('Our continental breakfast is being served right now.');
+}
+if(time>=11 && time<=14){
+	alert('Our restaurant is open!');
+	var reservation= confirm('Would you like to make a reservation?');
+	document.write('You have a reservation for 12:30');
+		
+}
+if(time>=17 && time <=21){
+	alert('You can order room service or go to the restuarant');
+}
+
+
+</script>
+
+</body>
+</html>
